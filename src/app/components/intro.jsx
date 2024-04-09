@@ -7,6 +7,7 @@ import { HiDownload } from 'react-icons/hi'
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from '../hooks/hooks'
 import { useActiveSectionContext } from '../context/active-section-context';
+import image from './img.webp'
 
 const Intro = () => {
     const { ref } = useSectionInView('Home');
@@ -21,7 +22,7 @@ const Intro = () => {
                         animate={{ opacity: 1, scale: 1 }}
                     >
                         <Image
-                            src="https://media.licdn.com/dms/image/C4E03AQFQ-3wSkZW9MA/profile-displayphoto-shrink_800_800/0/1633475417368?e=1707350400&v=beta&t=8Bf7syabRfXWwguZCjKlyL-c4Xdcwyw08Bic6ZGiRzc"
+                            src={image}
                             alt="Joaquin Gerez"
                             width="192"
                             height="192"
