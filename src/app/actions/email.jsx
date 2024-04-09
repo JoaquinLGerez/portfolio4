@@ -1,7 +1,7 @@
-// "use server"
+"use server"
 import { Resend } from 'resend';
-const { RESEND_API_KEY } = process.env;
-const resend = new Resend(RESEND_API_KEY);
+
+const resend = new Resend(process.env.RESEND_API_KEY); // Use the retrieved API key
 
 export const sendEmail = async (formData) => {
   let from = formData.get("senderEmail");
