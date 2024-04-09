@@ -1,6 +1,7 @@
 // "use server"
 import { Resend } from 'resend';
-const resend = new Resend('re_5LhDvW4x_5MYk4oLjsJ6bi5NSVsc5sCeK');
+const { RESEND_API_KEY } = process.env;
+const resend = new Resend(RESEND_API_KEY);
 
 export const sendEmail = async (formData) => {
   let from = formData.get("senderEmail");
@@ -22,8 +23,6 @@ export const sendEmail = async (formData) => {
       message: 'El campo mensaje debe tener mas de 5 caracteres'
     };
   }
-
-  // Validar contenido del mensaje (puedes agregar más validaciones según tus requisitos)
 
   try {
     resend.emails.send({
