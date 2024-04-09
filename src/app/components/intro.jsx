@@ -7,7 +7,7 @@ import { HiDownload } from 'react-icons/hi'
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from '../hooks/hooks'
 import { useActiveSectionContext } from '../context/active-section-context';
-import image from './img.webp'
+import image from '../img/img.webp'
 
 const Intro = () => {
     const { ref } = useSectionInView('Home');
