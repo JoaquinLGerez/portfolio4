@@ -17,15 +17,14 @@ return (
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
- Graduado como {" "}
-  <span className="font-medium">Tecnico Informatico</span>, me especialicé en {" "}
-  <span className="font-medium">desarrollo web full-stack tras recibir una beca para un bootcamp.</span>{" "}
-  <span className="italic"> Desde entonces,</span> mi pasión por la resolución de problemas me ha llevado a desarrollar aplicaciones que satisfacen las necesidades de los usuarios.
-  Manejo las tecnologias {" "}
+      Graduated as {" "}
+  <span className="font-medium">IT Technician</span>, I specialized in {" "}
+  <span className="font-medium">Fullstack development.</span>{" "}
+  <span className="italic"> Since then,</span> my passion for problem-solving has led me to develop applications that meet user needs
+  I am proficient in technologies like {" "}
   <span className="underline">
-     React, Next.js, Python y Node,
+  React, Next.js, Python, and Node.js. 
   </span>
-  . También estoy familiarizado con TypeScript y Amazon Web Services
 </p>
 
 

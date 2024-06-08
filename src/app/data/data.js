@@ -1,6 +1,6 @@
-import corpcommentImg from './corpcomment.png';
-import rmtdevImg from './rmtdev.png';
-import wordanalyticsImg from './wordanalytics.png';
+import ciccarelliImg from './ciccarelli.jpeg';
+import itJovenImg from './itjoven.png';
+import gestinoculturalpba from './gestinoculturalpba.jpeg';
 import { FaFileAlt, FaGraduationCap, FaBriefcase, FaReact } from "react-icons/fa";
 
 
@@ -60,27 +60,28 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
-    description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+    title: "IT Joven",
+    description: "a WordPress project. Offering a centralized hub for events, workshops, and job opportunities, it fosters engagement and growth among young tech enthusiasts.",
+    tags: ["Wordpress"],
+    imageUrl: itJovenImg,
   },
   {
-    title: "rmtDev",
+    title: "Juntas Ciccarelli",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Web app in node.js for this automotive gaskets company, creating a platform with admin tools for managing blog posts and products.",
+    tags: ["HTML + CSS", "Node.js", "Sequelize"],
+    imageUrl: ciccarelliImg,
   },
   {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    title: "PBA Gestion Cultural",
+    description: "Streamline cultural proposals across Buenos Aires with our web app. Administrators review and approve submissions from public officials, each with location and more details.",
+    tags: [ "Django", "React"],
+    imageUrl: gestinoculturalpba,
   },
 ];
+
+
+
 
 export const skillsData = [
   "HTML",
@@ -90,16 +91,10 @@ export const skillsData = [
   "React",
   "Next.js",
   "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
+  "Gitlab",
   "PostgreSQL",
+  "Express",
   "Python",
   "Django",
-  "Framer Motion",
+  "Docker",
 ];
